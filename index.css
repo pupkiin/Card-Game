@@ -1,0 +1,57 @@
+:root {
+  --gap: 20px;
+}
+
+.container {
+  max-width: 584px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.card-place {
+  margin: 0 auto;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  margin-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #000;
+  border-radius: 20px;
+  color: transparent;
+  background-color: rgb(102, 190, 212);
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+.card-open {
+  background-color: rgb(104, 31, 172);
+  color: rgb(141, 220, 239);
+  border-color: rgb(141, 220, 239);
+}
+
+.card-pair {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
